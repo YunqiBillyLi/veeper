@@ -99,6 +99,7 @@ def voigt(waves, line, coldens, bval, z, vels):
 
 def get_lsfs():
     lsfobjs = []
+    print(cfg.instr)
     for i, inst in enumerate(cfg.instr):
         lsfobjs.append(
             LSF(
