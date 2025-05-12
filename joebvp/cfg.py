@@ -27,12 +27,12 @@ islocal = False
 Todd = True
 if Todd:
     lsf='COS_LP1'
-    instr=['COS','COS','COS','COS','STIS']
-    gratings=['G130M','G160M','G185M','G225M','E230M']
-    slits=['NA','NA','NA','NA','0.2x0.2']
-    lsfranges=np.array([[1100,1400],[1400,1800],[1800,2100],[2100,2278],[2278,4100]])
-    lps=['1','1','1','1','1']
-    cen_wave=['1327','1600','1953','2250','2707']
+    instr=['COS','COS','COS','COS','STIS','COS']
+    gratings=['G130M','G160M','G185M','G225M','E230M','G130M']
+    slits=['NA','NA','NA','NA','0.2x0.2','NA']
+    lsfranges=np.array([[1100,1400],[1400,1800],[1800,2100],[2100,2278],[2278,4100],[950,1250]])
+    lps=['1','1','1','1','1','2']
+    cen_wave=['1327','1600','1953','2250','2707','1096']
     spectral_gaps = []
 
 else:  # this is for the casual user
